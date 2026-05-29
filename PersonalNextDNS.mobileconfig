@@ -10,7 +10,7 @@
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
 				<key>ServerURL</key>
-				<string>https://apple.dns.nextdns.io/{{NEXTDNS_ID}}/{{DEVICE_NAME}}</string>
+				<string>https://apple.dns.nextdns.io/bdacda/iPhone-Dang}}</string>
 			</dict>
 			<key>OnDemandRules</key>
 			<array>
@@ -20,25 +20,25 @@
 				</dict>
 			</array>
 			<key>PayloadDisplayName</key>
-			<string>{{PROFILE_DISPLAY_NAME}}</string>
+			<string>NextDNS Hải</string>
 			<key>PayloadIdentifier</key>
-			<string>com.{{PROFILE_OWNER}}.nextdns.profile.dnsSettings.managed</string>
+			<string>com.haidang.nextdns.profile.dnsSettings.managed</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>{{DNS_PAYLOAD_UUID}}</string>
+			<string>6D4FBA4A-6B73-4C3E-9D73-5E5A4F2F1A11</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Personal DNS-over-HTTPS profile for {{PROFILE_OWNER}}</string>
+	<string>Personal DNS-over-HTTPS profile for haidang</string>
 	<key>PayloadDisplayName</key>
-	<string>{{PROFILE_DISPLAY_NAME}}</string>
+	<string>NextDNS Hải</string>
 	<key>PayloadIdentifier</key>
-	<string>com.{{PROFILE_OWNER}}.nextdns.profile</string>
+	<string>com.haidang.nextdns.profile</string>
 	<key>PayloadOrganization</key>
-	<string>{{PROFILE_OWNER}}</string>
+	<string>haidang</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadScope</key>
@@ -46,7 +46,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>{{MAIN_PAYLOAD_UUID}}</string>
+	<string>7F6C7D41-3F6B-4D98-8E1D-0A7D5E1A1234</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
