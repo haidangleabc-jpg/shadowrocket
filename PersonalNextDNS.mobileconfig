@@ -2,61 +2,135 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
 	<key>PayloadContent</key>
 	<array>
 		<dict>
+
 			<key>DNSSettings</key>
 			<dict>
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
+
+				<key>ServerAddresses</key>
+				<array>
+					<string>45.90.28.0</string>
+					<string>45.90.30.0</string>
+					<string>2a07:a8c0::</string>
+					<string>2a07:a8c1::</string>
+				</array>
+
+				<key>ServerName</key>
+				<string>b7b673.dns.nextdns.io</string>
+
 				<key>ServerURL</key>
-				<string>https://apple.dns.nextdns.io/bdacda/iPhone-Dang</string>
+				<string>https://dns.nextdns.io/b7b673</string>
 			</dict>
+
 			<key>OnDemandRules</key>
 			<array>
 				<dict>
 					<key>Action</key>
 					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>WiFi</string>
+				</dict>
+
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>Cellular</string>
+				</dict>
+
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
 				</dict>
 			</array>
+
+			<key>PayloadDescription</key>
+			<string>👨‍💻 Developed by hd Services
+
+✨ Tốc Độ Tạo Nên Khác Biệt
+⚡ Nhanh Hơn - Mượt Hơn - Ổn Định Hơn
+👑 Premium DNS Experience
+🚀 Kết Nối Không Giới Hạn
+🌐 Đơn Giản Nhưng Hiệu Quả
+💎 Chất Lượng Tạo Nên Thương Hiệu
+🔥 Always Fast, Always Stable
+👑 DNS VIP Của Dan - Đẳng Cấp Trong Từng Kết Nối
+
+💬 Contact for support if needed
+
+🚀 Tính Năng:
+• Chứa Cài Đặt DNS
+• Thông Báo Chấp Thuận
+• Kết Nối Nhanh Và Ổn Định
+
+- by hdang</string>
+
 			<key>PayloadDisplayName</key>
-			<string>NextDNS Hải</string>
+			<string>👑 DNS Giữ Gold Của Dan</string>
+
 			<key>PayloadIdentifier</key>
-			<string>com.haidang.nextdns.profile.dnsSettings.managed</string>
+			<string>vn.danservices.dns.managed</string>
+
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
+
 			<key>PayloadUUID</key>
-			<string>6D4FBA4A-6B73-4C3E-9D73-5E5A4F2F1A11</string>
+			<string>A8F3FF4B-54A9-4791-80D0-97C0C86D67E6</string>
+
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+
+			<key>ProhibitDisablement</key>
+			<false/>
+
 		</dict>
 	</array>
 
 	<key>PayloadDescription</key>
-	<string>Personal DNS-over-HTTPS profile for haidang</string>
+	<string>👨‍💻 Developed by Dan Services
+
+✨ Tốc Độ Tạo Nên Khác Biệt
+⚡ Nhanh Hơn - Mượt Hơn - Ổn Định Hơn
+👑 Premium DNS Experience
+🚀 Kết Nối Không Giới Hạn
+🌐 Đơn Giản Nhưng Hiệu Quả
+💎 Chất Lượng Tạo Nên Thương Hiệu
+🔥 Always Fast, Always Stable
+
+💬 Contact for support if needed
+
+🚀 Tính Năng:
+• Chứa Cài Đặt DNS
+• Thông Báo Chấp Thuận
+• Kết Nối Nhanh Và Ổn Định
+
+- by hdang</string>
 
 	<key>PayloadDisplayName</key>
-	<string>NextDNS Hải</string>
+	<string>👑 DNS Giữ Gold Của Dan</string>
 
 	<key>PayloadIdentifier</key>
-	<string>com.haidang.nextdns.profile</string>
+	<string>vn.danservices.dns.profile</string>
 
 	<key>PayloadOrganization</key>
-	<string>haidang</string>
+	<string>Dan Services</string>
 
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
-
-	<key>PayloadScope</key>
-	<string>System</string>
 
 	<key>PayloadType</key>
 	<string>Configuration</string>
 
 	<key>PayloadUUID</key>
-	<string>A2B4C6D8-E0F1-4234-ABCD-123456789ABC</string>
+	<string>2B6AC73F-1A44-43CF-A951-95F6B3CEB7BE</string>
 
 	<key>PayloadVersion</key>
 	<integer>1</integer>
+
 </dict>
 </plist>
